@@ -1,0 +1,149 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
+body {
+	background-color: #fff;
+	font-family: "Poppins", sans-serif;
+}
+.navbar {
+	background-color: #0000ff;
+}
+
+.url-link {
+	cursor: pointer !important;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: white;
+}
+
+.container {
+	max-width: 800px;
+	margin-top: 50px;
+}
+
+.container-dash {
+	max-width: 1200px;
+	margin-top: 50px;
+}
+
+.jumbotron {
+	background: #f8f9fa;
+	padding: 2rem 1rem;
+	border-radius: 0.3rem;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.display-4 {
+	font-size: 2.5rem;
+}
+
+.lead {
+	font-size: 1.25rem;
+}
+
+.btn-grp {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-home {
+	font-size: 1.25rem;
+	border-radius: 0.3rem;
+	width: 150px;
+}
+.card {
+	border: none;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+	/* box-shadow: 0 4px 12px #0000ff; */
+}
+
+.btn-primary {
+	background: none;
+	color: #0000ff !important;
+	border-color: #0000ff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	color: white !important;
+	background-color: #0000ff !important;
+	border-color: #0000ff !important;
+	outline: none !important;
+}
+.form-control:focus {
+	border-color: #0000ff !important;
+	/* box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.25); */
+}
+h2 {
+	color: #0000ff;
+}
+
+.card {
+	box-shadow: none !important;
+	border: 1px solid #eee !important;
+}
+
+.link {
+	color: rgb(219, 219, 219);
+}
+.link:hover {
+	color: white;
+}
+
+.card-link {
+	color: #0000ff;
+}
+.card-link:hover {
+	color: #3a3ad8;
+}
+
+.activate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18%;
+	padding: 0%;
+	position: relative;
+}
+
+.activate-spinner {
+	position: absolute;
+	color: #0000ff;
+	top: 60px;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+	p {
+		font-size: small;
+	}
+	.display-4 {
+		font-size: 2rem;
+	}
+	.lead {
+		font-size: 1rem;
+	}
+	.activate {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 55%;
+		padding: 0%;
+		position: relative;
+	}
+
+	.activate-head {
+		font-size: large;
+	}
+
+	.activate-spinner {
+		position: absolute;
+		color: #0000ff;
+		top: 40px;
+	}
+}
