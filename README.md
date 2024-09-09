@@ -21,8 +21,8 @@ This project is a URL shortener application built using the MERN stack (MongoDB,
 
 ## Deployed URL:
 
-- **Frontend**: [https://arunkarthik0710-url-shortener.netlify.app/](https://arunkarthik0710-url-shortener.netlify.app/)
-- **Backend**: `https://url-shortener-i6s8.onrender.com`
+- **Frontend**: https://mellow-cajeta-4bbe94.netlify.app/
+- **Backend**: `https://backend-2-lto2.onrender.com`
 
 ---
 
@@ -32,15 +32,3 @@ This project is a URL shortener application built using the MERN stack (MongoDB,
 2. **Shorten URLs:** Use the form to shorten a long URL.
 3. **View URLs:** Access the dashboard to see your shortened URLs and their analytics.
 
----
-
-## Routes
-
-- **POST /api/urls/shorten** - Shorten a URL
-- **GET /api/urls/** - Get a list of URLs
-- **GET /api/urls/:id** - Get details of a specific URL
-- **GET /api/urls/dash/count** - Get dashboard data
-- **POST /api/auth/register** - Register a new user
-- **POST /api/auth/login** - Log in an existing user
-
----
